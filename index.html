@@ -10,14 +10,16 @@
 <body>
     <h2>Posts</h2>
     <div id="posts"></div>
-    <div class="pagination" id="pageNumber">Page 1
+    <div class="pagination" >Page 1
         <button id="prevPage">Previous</button>
         <span id="pageInfo">1</span>
         <button id="nextPage">Next</button>
     </div>
     <button id="loadAllPost">Charger tous les posts</button>
     <div id="errorPost" class="error"></div>
-    <script src="scriptPost.js"></script>
+    <script type="module" src="api.js" ></script>
+    <script type="module" src="Posts.js"></script>
+    <script  type="module" src="main.js"></script>
 </body>
 
 </html>
